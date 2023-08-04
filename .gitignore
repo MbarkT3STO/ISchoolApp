@@ -1,0 +1,5 @@
+## Exclude the Source and Tests folder from being ignored by .gitignore
+!/Source/*
+!/Tests/*
+
+
