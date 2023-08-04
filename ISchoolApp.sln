@@ -1,0 +1,53 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{749DE126-4861-47F2-84A0-230E2172E17D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EFF32F44-4D2F-4999-9182-BF6D48DD30C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InitialFormationService", "Source\InitialFormationService", "{1ACC633D-09D3-4A51-81EC-061A5A8BD43D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialFormationService.API", "Source\InitialFormationService\InitialFormationService.API\InitialFormationService.API.csproj", "{A8E2297A-7524-4517-852A-83CC852A0D95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialFormationService.Domain", "Source\InitialFormationService\InitialFormationService.Domain\InitialFormationService.Domain.csproj", "{86DDEDB4-7F04-46BD-97B5-BA1721AD0CB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialFormationService.Application", "Source\InitialFormationService\InitialFormationService.Application\InitialFormationService.Application.csproj", "{022DD4E6-CB49-4C69-91F4-16E3196941EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialFormationService.Infrastructure", "Source\InitialFormationService\InitialFormationService.Infrastructure\InitialFormationService.Infrastructure.csproj", "{243887C1-AC0A-40DE-BCE8-C1219492446C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{243887C1-AC0A-40DE-BCE8-C1219492446C} = {1ACC633D-09D3-4A51-81EC-061A5A8BD43D}
+		{022DD4E6-CB49-4C69-91F4-16E3196941EC} = {1ACC633D-09D3-4A51-81EC-061A5A8BD43D}
+		{86DDEDB4-7F04-46BD-97B5-BA1721AD0CB7} = {1ACC633D-09D3-4A51-81EC-061A5A8BD43D}
+		{A8E2297A-7524-4517-852A-83CC852A0D95} = {1ACC633D-09D3-4A51-81EC-061A5A8BD43D}
+		{1ACC633D-09D3-4A51-81EC-061A5A8BD43D} = {749DE126-4861-47F2-84A0-230E2172E17D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8E2297A-7524-4517-852A-83CC852A0D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E2297A-7524-4517-852A-83CC852A0D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E2297A-7524-4517-852A-83CC852A0D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E2297A-7524-4517-852A-83CC852A0D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86DDEDB4-7F04-46BD-97B5-BA1721AD0CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86DDEDB4-7F04-46BD-97B5-BA1721AD0CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86DDEDB4-7F04-46BD-97B5-BA1721AD0CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86DDEDB4-7F04-46BD-97B5-BA1721AD0CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022DD4E6-CB49-4C69-91F4-16E3196941EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022DD4E6-CB49-4C69-91F4-16E3196941EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022DD4E6-CB49-4C69-91F4-16E3196941EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022DD4E6-CB49-4C69-91F4-16E3196941EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243887C1-AC0A-40DE-BCE8-C1219492446C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243887C1-AC0A-40DE-BCE8-C1219492446C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243887C1-AC0A-40DE-BCE8-C1219492446C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243887C1-AC0A-40DE-BCE8-C1219492446C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
