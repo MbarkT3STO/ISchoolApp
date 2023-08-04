@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.API\\InitialFormationService.API.csproj": {}
+    "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.API\\InitialFormationService.API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.API\\InitialFormationService.API.csproj": {
+    "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.API\\InitialFormationService.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.API\\InitialFormationService.API.csproj",
+        "projectUniqueName": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.API\\InitialFormationService.API.csproj",
         "projectName": "InitialFormationService.API",
-        "projectPath": "c:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.API\\InitialFormationService.API.csproj",
+        "projectPath": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.API\\InitialFormationService.API.csproj",
         "packagesPath": "C:\\Users\\MBARKT3STO\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.API\\obj\\",
+        "outputPath": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MBARKT3STO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,7 +28,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Application\\InitialFormationService.Application.csproj": {
+                "projectPath": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Application\\InitialFormationService.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -42,6 +46,18 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.9, )"
             },
@@ -65,6 +81,204 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Application\\InitialFormationService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Application\\InitialFormationService.Application.csproj",
+        "projectName": "InitialFormationService.Application",
+        "projectPath": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Application\\InitialFormationService.Application.csproj",
+        "packagesPath": "C:\\Users\\MBARKT3STO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MBARKT3STO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Domain\\InitialFormationService.Domain.csproj": {
+                "projectPath": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Domain\\InitialFormationService.Domain.csproj"
+              },
+              "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Infrastructure\\InitialFormationService.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Infrastructure\\InitialFormationService.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Domain\\InitialFormationService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Domain\\InitialFormationService.Domain.csproj",
+        "projectName": "InitialFormationService.Domain",
+        "projectPath": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Domain\\InitialFormationService.Domain.csproj",
+        "packagesPath": "C:\\Users\\MBARKT3STO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MBARKT3STO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Infrastructure\\InitialFormationService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Infrastructure\\InitialFormationService.Infrastructure.csproj",
+        "projectName": "InitialFormationService.Infrastructure",
+        "projectPath": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Infrastructure\\InitialFormationService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\MBARKT3STO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MBARKT3STO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

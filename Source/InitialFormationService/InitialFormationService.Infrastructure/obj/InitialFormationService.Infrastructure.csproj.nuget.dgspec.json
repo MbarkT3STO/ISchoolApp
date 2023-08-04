@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Infrastructure\\InitialFormationService.Infrastructure.csproj": {}
+    "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Infrastructure\\InitialFormationService.Infrastructure.csproj": {}
   },
   "projects": {
-    "c:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Infrastructure\\InitialFormationService.Infrastructure.csproj": {
+    "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Infrastructure\\InitialFormationService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Infrastructure\\InitialFormationService.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Infrastructure\\InitialFormationService.Infrastructure.csproj",
         "projectName": "InitialFormationService.Infrastructure",
-        "projectPath": "c:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Infrastructure\\InitialFormationService.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Infrastructure\\InitialFormationService.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\MBARKT3STO\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MBARKT3STO\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Domain\\InitialFormationService.Domain.csproj": {}
+    "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Domain\\InitialFormationService.Domain.csproj": {}
   },
   "projects": {
-    "c:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Domain\\InitialFormationService.Domain.csproj": {
+    "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Domain\\InitialFormationService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Domain\\InitialFormationService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Domain\\InitialFormationService.Domain.csproj",
         "projectName": "InitialFormationService.Domain",
-        "projectPath": "c:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Domain\\InitialFormationService.Domain.csproj",
+        "projectPath": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Domain\\InitialFormationService.Domain.csproj",
         "packagesPath": "C:\\Users\\MBARKT3STO\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Domain\\obj\\",
+        "outputPath": "C:\\Users\\MBARKT3STO\\source\\repos\\ISchoolApp\\Source\\InitialFormationService\\InitialFormationService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MBARKT3STO\\AppData\\Roaming\\NuGet\\NuGet.Config",
