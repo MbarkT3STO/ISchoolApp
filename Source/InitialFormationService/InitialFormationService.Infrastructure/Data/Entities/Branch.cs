@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace InitialFormationService.Domain.Entities;
+namespace InitialFormationService.Infrastructure.Data.Entities;
 
 public class Branch
 {
@@ -13,5 +13,7 @@ public class Branch
 	public byte FormativeYears { get; set; }
 	public byte FormativeMonths { get; set; }
 	
-	public DiplomaLevel DiplomaLevel { get; set; }
+	public int DiplomaLevelId { get; set; }
+
+	public virtual DiplomaLevel DiplomaLevel { get; set; }
 }
